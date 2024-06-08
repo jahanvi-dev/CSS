@@ -1,0 +1,33 @@
+/* CSS Boiler Plate  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins';
+    background-color: rgba(0, 0, 0, 0.073);
+}
+
+/* 👉 Let's dicuss properties related to text : */
+h1{
+    font-family: 'Poppins';
+    padding: 1vw;
+    font-weight: 600;         
+    text-align: start;
+    text-transform: uppercase;
+    text-decoration: underline;    
+}
+
+/* 👉 Let's dicuss about box - model : */
+.box1{
+    height: 30vh;
+    width: 30vw;
+    background-color: pink;
+    margin: 1vw 0 0 1vw;
+    border: 2px solid black;
+    padding: 5vw 2vw 0 6.4vw;
+}
